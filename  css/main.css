@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.messageBox {
+    height: 80px;
+    width: 400px;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 60px;
+}
+
+.button {
+    background-color: gray;
+    border-radius: 5px;
+    height: 80px;
+    width: 80px;
+    font-size: 20px;
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.number {
+    border: 2px solid gray;  
+    border-radius: 5px;
+    height: 80px;
+    text-align: center;
+}
+
+.button:hover {
+    background-color: white;
+    color: gray;
+}
+
+#buttons-input {
+}
+
